@@ -68,7 +68,7 @@ rail_buttons = kilakila.set_rail_buttons(
 
 main = kilakila.add_parachute(
     name="Main",
-    cd_s=5.19,
+    cd_s=5.194,
     trigger=700,
     sampling_rate=200,
     lag=2,
@@ -76,7 +76,7 @@ main = kilakila.add_parachute(
 )
 drogue = kilakila.add_parachute(
     name="drogue",
-    cd_s=0.154,
+    cd_s=0.176,
     trigger="apogee",  # ejection at apogee
     sampling_rate=105,
     lag=1.5,
