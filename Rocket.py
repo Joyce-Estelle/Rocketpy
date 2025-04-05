@@ -30,7 +30,7 @@ Pioneer5K = SolidMotor(
 
 kilakila = Rocket(
     radius = 165/2000,
-    mass = 14.89,
+    mass = 28.49739,
     inertia=(6.321, 6.321, 0.034),
     power_off_drag="./powerOffDragCurve.csv",
     power_on_drag="./powerOnDragCurve.csv",
